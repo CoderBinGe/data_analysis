@@ -14,6 +14,9 @@
 	一周当中每天总共有多少自行车通过
 	
 **stock_analysis：**
-	- index_col=0：将第一列作为索引，无行号，默认为None
-	- concat
-	- 月K线图
+
+	* index_col=0：将第一列作为索引，无行号，默认为None
+	
+	* concat
+	
+	* 月K线图
