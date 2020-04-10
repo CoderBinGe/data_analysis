@@ -1,11 +1,11 @@
 **pandas_dataframe_visualization：基于pandas的内置可视化**
-	* 基本绘图：df.plot()
-	* 条形图: df.plot.bar()/df.plot.barh() stacked=True:堆积条形图
-	* 直方图：df.plot.hist()/df.hist()
-	* 箱形图: df.plot.box()
-	* 区域块图: df.plot.area()
-	* 散点图: df.plot.scatter()
-	* 饼状图: df.plot.pie(subplots=True) 绘制带图例的饼图
+* 基本绘图：df.plot()
+* 条形图: df.plot.bar()/df.plot.barh() stacked=True:堆积条形图
+* 直方图：df.plot.hist()/df.hist()
+* 箱形图: df.plot.box()
+* 区域块图: df.plot.area()
+* 散点图: df.plot.scatter()
+* 饼状图: df.plot.pie(subplots=True) 绘制带图例的饼图
 	
 matplotlib_visualization: Matplotlib可视化手册	
 
