@@ -1,16 +1,11 @@
 # data_analysis
 
 **movie_analysis:**
-
-	每部电影打分的人数
-	
-	每部电影的平均分，以及有多少人打分
-	
-	脏数据处理，把字符串id转化为int
-	
-	merge
-	
-	sort_values(排序)
+* 每部电影打分的人数
+* 每部电影的平均分，以及有多少人打分
+* 脏数据处理，把字符串id转化为int
+* merge
+* sort_values(排序)
 	
 **bike_analysis：**
 
