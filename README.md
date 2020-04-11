@@ -7,7 +7,38 @@
 * 散点图: df.plot.scatter()
 * 饼状图: df.plot.pie(subplots=True) 绘制带图例的饼图
 	
-**matplotlib_visualization: Matplotlib可视化手册**	
+**matplotlib_visualization: matplotlib可视化手册**	
+
+**matplotlib_cases:**
+1. 关联分析、数值比较：散点图、曲线图（带置信区间、双坐标）
+2. 分布分析：灰度图、密度图、直方图（堆叠）
+3. 涉及分类的分析：柱状图（堆积、分组）、箱式图
+
+* 获取网络数据（urllib）
+* 文件解压缩（zipfile）
+* matplotlib基本参数配置如下：
+```
+from __future__ import division, print_function # 引入3.x版本的除法和打印
+from matplotlib import pyplot as plt
+import pandas as pd
+import numpy as np
+# 在notebook中显示绘图结果
+%matplotlib inline
+
+# 设置一些全局的资源参数，可以进行个性化修改
+import matplotlib
+# 设置图片尺寸 14" x 7"
+# rc: resource configuration
+matplotlib.rc('figure', figsize = (14, 7))
+# 设置字体 14
+matplotlib.rc('font', size = 14)
+# 不显示顶部和右侧的坐标线
+matplotlib.rc('axes.spines', top = False, right = False)
+# 不显示网格
+matplotlib.rc('axes', grid = False)
+# 设置背景颜色是白色
+matplotlib.rc('axes', facecolor = 'white')
+```
 
 **movie_analysis:**
 * 每部电影打分的人数
