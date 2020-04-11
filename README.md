@@ -7,7 +7,7 @@
 * 散点图: df.plot.scatter()
 * 饼状图: df.plot.pie(subplots=True) 绘制带图例的饼图
 	
-**matplotlib_visualization: matplotlib可视化手册**	
+**matplotlib_visualization: [matplotlib可视化手册](https://matplotlib.org/api/pyplot_api.html)**	
 
 **matplotlib_cases:**
 1. 关联分析、数值比较：散点图、曲线图（带置信区间、双坐标）
