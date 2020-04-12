@@ -40,6 +40,18 @@ matplotlib.rc('axes', grid = False)
 matplotlib.rc('axes', facecolor = 'white')
 ```
 
+**visualization_seaborn_distribution：**
+
+单变量分布：
+- 直方图（灰度图）：sns.distplot(x, kde=True, bins=20)
+- 核密度估计：sns.kdeplot(x)
+
+双变量分布：
+
+- 散点图：sns.jointplot(x="x", y="y", data=df)
+- 核密度估计：sns.jointplot(x="x", y="y", data=df, kind="kde")
+
+
 **movie_analysis:**
 * 每部电影打分的人数
 * 每部电影的平均分，以及有多少人打分
