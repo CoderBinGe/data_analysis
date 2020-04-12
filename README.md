@@ -40,7 +40,7 @@ matplotlib.rc('axes', grid = False)
 matplotlib.rc('axes', facecolor = 'white')
 ```
 
-**visualization_seaborn_distribution：**
+**visualization_seaborn_distribution（单维度与关联维度分析）：**
 
 单变量分布：
 - 直方图（灰度图）：sns.distplot(x, kde=True, bins=20)
@@ -50,6 +50,20 @@ matplotlib.rc('axes', facecolor = 'white')
 
 - 散点图：sns.jointplot(x="x", y="y", data=df)
 - 核密度估计：sns.jointplot(x="x", y="y", data=df, kind="kde")
+
+**visualization_seaborn_regression（连续变量关联分析）：**
+
+- 绘制线性回归模型：sns.lmplot()
+- 拟合不同模型
+- 变量间的条件关系摸索
+- 控制图片的大小和形状
+
+**visualization_seaborn_statEstimation（离散变量分析）：**
+
+- 散点图：sns.stripplot(x="day", y="total_bill", data=tips)
+- 箱图：sns.boxplot(x="day", y="total_bill", hue="time", data=tips)
+- 统计柱状图：sns.barplot(x="sex", y="survived", hue="class", data=titanic, ci=None)
+- 灰度柱状图：sns.countplot(x="deck", data=titanic)
 
 
 **movie_analysis:**
