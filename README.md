@@ -102,3 +102,19 @@ matplotlib.rc('axes', facecolor = 'white')
 * 地铁附近的房源离地铁平均距离
 * 最多的在租楼层
 * 直接看房的房子比例
+
+**students_sales_data_analysis：**
+
+学生数据和销售数据做分析：
+
+```
+# 两张表按字段做连接
+pd.merge(df_info, df_score, on="ID", how="inner")
+
+# 按性别统计各科目的平均分
+df.groupby('sex').agg({'G1':np.mean,'G2':np.mean,'G3':np.mean})
+
+# 按年龄统计各科目平均分，并柱状图展示
+result=df.groupby('age')['G1','G2','G3'].agg(np.mean)
+result.plot(kind='bar')
+```
